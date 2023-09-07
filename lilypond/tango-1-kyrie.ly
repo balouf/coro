@@ -27,14 +27,6 @@ armure = {
 \key c \minor
 }
 
-pl = \markup {\dynamic p \italic legato}
-pll = \markup {\dynamic p \italic legatissimo}
-mpe = \markup {\dynamic mp \italic espressivo}
-mfa = \markup {\dynamic mf \italic articolato}
-mfll = \markup {\dynamic mf \italic legatissimo}
-fa = \markup {\dynamic f \italic articolato}
-ffp = \markup {\dynamic ff \italic pesante}
-
 
 sop_music = {
   c'4^\ffp 8 4. 4 d4 8 4. r4
@@ -666,4 +658,265 @@ bass = \new Staff \with {instrumentName="Bass"
 >>
 
 
-\include "utils/booksq.ly"
+upper = \relative c' {
+  \armure
+  \rpiano_syle
+  <es g c>4. 4. 4 <f aes d>4. 4
+  d'8( es e)
+  <aes, d f>4. 4. <f aes d>4 
+  <g d' es>4. <es g c>4 <es bes'>8( a aes)
+  <es g>1 <d fis> <des f> <c es>2. <d f>8( <es g>)
+  <c aes'>4^"rit" <ges' es'>-- <f d'>-- <es c'>--
+  <d aes'c>2.\fermata r4^"a tempo" \bar "||"
+  r8 <d es g>4-> 8-. 16 16 4.->
+  r8 fis,->( g)-. es'-. b->( c-.) aes'->( g-.)
+  r8 <d es g>4-> 8-. 16 16 4.->
+  r8 <g, es'>4_\> <fis d'>8-. 8->( <f des'>-.) 8->( <es c'>-.)
+  <c'es g>4-.\! r4 4-. r4
+  \repeat unfold 15 {4-. r4 4-. r4}
+  r4 <bes bes'>-- <aes aes'>-- <g g'>--
+  r8 <aes es'>4.-> r8 <aes d>4.->
+  r8 <bes f'>4.-> r8 <bes des e>4.->
+  r8 <aes es'>4.-> r8 <aes d>4.->
+  <<{<des f>2--} \\ {aes4 g}>> <g c g'>2--
+  r8 <aes es'>4.-> r8 <aes d>4.->
+  r8 <bes f'>4-> 8-- 4-- <a e'>--
+  r8 <aes es'>4.-> r8 <aes d>4.->
+  <bes d g>2_\< <b f'aes>
+  <c es g>4.->\f 4.-> 4->
+  <c g' c>-- <bes f' bes>-- <<{<aes aes'>2--} \\ {es'4 d}>>
+  <g, d'g>-- <aes c f>-- <bes es g>-- <des es g>--
+  <c es g>4.-> 8-> r <c fis>-. r <b f'>-.
+  r8 fis->( g-.) d'-. <aes d>8.-> 16-> 8-> <aes c es>->
+  r8 <c es g>4.->_\ff r8 <b f'aes>4.->
+  r8 <c es aes>4.-> r8 <c g'c>4.->
+  r8 <bes f' bes>4.-> 4-- <bes e>--
+  r8 <aes es'>4.-> r8 <aes d>4.->
+  r8 bes'4(^"cantado" a16 bes <f b>4. bes16 b \bar "||"
+  <c es,> b <c es,>4) g8( <aes es'>4. d16 c
+  <aes d>8) fis( <g d'> c16 d c bes <g c>4.)
+  r8 <fis fis'>4( <f f'>16 <fis fis'> <g g'>4 <aes aes'>8 <bes bes'>)
+  \clef bass
+  r8 c,4_\mf b16 c <aes d>4. c16 d <g, c> bes <g c>4
+  bes16 aes <f bes>8 aes16 g <es aes>8 g16 f
+  r8 g4-> f16 g g4.-> f16 g g4.-> f16 g g-> f g4.->
+  \bar "||" \clef treble
+  r8 \grace c''16( c,4)(_\f b16 c <aes d>4. c16 d
+  <c g> bes c8~ 16) f,( g aes <f bes>8 aes16 g <es aes>8 g16 f)
+  r8 <d g>4-> f16( g) <c, g'>4. f16( g)
+  <c, g'>4. f16( g) <g c,>( f) <g b,>4.
+  \bar "||"
+  es8(_\mf\> c g) es'([ c g)] es'16( c g8)
+  es'8( c g) es'([ c g)] es'16( c g8)\!
+  es'8( c g) es'([ c g)] es'16( c g8)
+  es'8( c g) es'([ c g)] es'16( c g8)
+  r8 g-. g->( c)-. c(-> es)-. es16->( d c8)
+  r8 fis,-. <fis c' es>4-> r8 <f b d>4.->
+  es'8( c g) es'([ c g)] es'16( c g8)
+  es'8( c g) es'([ c g)] es'16( c g8)
+  r8 g-. <g c es>4-> r8 <fis c' es>4.->
+  r8 aes'4->( bes16 d <bes des e a>4-- g')
+  r8 g,4->( aes16 c <aes ces d g>16 f' <g d ces aes>4.)
+  r8 f4->( d16 bes g8 f4 bes16 aes)
+  f8( c aes) f'([ c aes)] f'16( c aes8)
+  g'8(_\< b, aes) g'([ b, aes)] g'16( b, aes8)
+  r8 <g c es>8-.\! 8-. r <c es g>8-. 8-. r <es g c>-.
+  r8 <g, c es>8-.\! 8-. r <c es g>8-. 8-. r <es g c>-.
+  r8 <es g c>8-.\! 8-. r <c es g>8-. 8-. r <g c es>-.
+  r8 4.-> <fis c'>4-- <f b>--
+  r8 <g c es>8-.\! 8-. r <c es g>8-. 8-. r <es g c>-.
+  r8 <g, c es>8-.\! 8-. r <c es g>8-. 8-. r <es g c>-.
+  r8 <g, c es>8-.\! 8-. r r <fis c' es>4-> r8
+  <bes d f>2_\p <bes des e> <aes c es> <aes ces d>
+  <g bes d> <g c es>-.
+  r8 <aes c f>-._\< 8-. r8 8-. 8-. r8 8-.
+  r8 <aes b f'>8-. 8-. r8 8-. 8-. r8 8-.
+  \bar "||"
+  <c es g>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <c es fis>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <c es g>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <c g' c>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <aes es' aes>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <bes f' bes>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <c g'c>\!->[ 8-. 8-.] 8->[ 8-. 8-.] 8-> 8-. 
+  <es fis a d>\!->[ 8-. 8-.] 8->[ 8-. 8-.] <d f aes d>8-> 8-.
+  c'(_\p g e) c'([ g e)] c'( g) <c, f a c>1_\mp
+  <d f bes> <bes es g bes> <c es aes> <aes des f aes>
+  <b d g>4.->_\mf 4.-> 4->
+  r4 \grace {bes'16( a aes} g8)(_\f aes 
+  <f bes es> d' cis d g2~ 8) c,4( e16 g 
+  g8 f f c c a g f) f'2~ 8 bes,4( d16 f
+  f8 es d es f16 g aes bes b c des d)
+  es8( aes, aes bes c des d es)
+  4( des8 c) \tuplet 3/2 4 {es des c es des c}
+  \override TextSpanner.bound-details.left.text = "rit."
+  c( aes f d c aes f d)\startTextSpan
+  <<{c'1 }\\{r8 f,([ d)] aes'([ f d]) aes'( f)}>>
+  <d g b>1\stopTextSpan\fermata
+   \bar "||"
+  R1*4 
+  r2 r8 c-. des16 d es e
+  f8.-- 16-. e8 8-. es d-. es16 e f fis
+  g8.-- 16-. f8-. 8-. es4-- <des g>8-- g-.
+  es' f4 es16 d <c d fis,>8 es4 <d bes f>16 des
+  <c c'>8.-- 16-. <b b'>8-. 8-. <bes bes'>4-- <a a'>--
+  <aes f'>8.-- 16-. <g e'>8-. 8-. <f aes es'>4-- <f aes d>--
+  <d g d'>-- <c f c'>-- <bes es bes'>-- <g' des' g>--
+  << {fis'4. 8 f r r f}\\{r8 c a r r b aes r}>>
+  <g  es'>1
+  f8.-- 16-. e8-. 8-. es4-- d
+  <d g>8.-- 16-. <c f>8-. 8-. <bes es>4-- <des es g>8-. 8-.
+  r c es fis <c f>4 <b f'>
+  <c'c'>8.-- 16-. <b b'>8-. 8-. <bes bes'>4-- <a a'>--
+  <aes f'>8.-- 16-. <g e'>8-. 8-. <f aes es'>4-- <f aes d>--
+  < d g d'>-- <c f c'>-- <bes es bes'>-- <g' des' g>--
+  <<{fis'4. 8 f4. 8}\\{r8 c a r r b aes r}>>
+  <g es'>1_\f <c, es g>4.-> 4.-> 4->
+  <c g' c> <bes f' bes> <<{<aes aes'>2}\\{es'4 d}>>
+  <g, d' g> <aes c f> <bes es g> <des es g>
+  r8 <c es g>4.-> r8 <c es fis>4.->
+  r8 <aes c g'>4->( aes'16 c) 
+  <aes c g'>8->( f') <b, d f bes!>->( aes')
+  <g, c es g>8.-- 16( <fis c' es fis>8-.) 8-.
+  <f c' es f>4-- <es c' es>--
+  < f aes es'>8.-- 16 -. <f aes d>8-. 8-. <f aes c>4-- <f aes b>--
+  <c es bes'>8.-- 16( <c es a>8-.) 8-. <c es aes>4-- <c es g>--
+  <a d fis>2 <aes des f> <g c e>1\>
+  <aes c f>4--_\mp <g c g'>-- <c g' c>-- <c fis c'>--
+  <b f' b>-- <bes e bes'>-- <a es' a>-- <aes d aes'>--
+  <g d' g>-- <aes c f>-- <g bes es>-- <des' es g>-- 
+  r8 <c es g>4.-> <c f>4-- <b f'>--
+  <c'c'>8.-- 16-. <b b'>8-. 8-. <bes bes'>4-- <a a'>--
+  <aes f'>8.-- 16-. <g e'>8-. 8-. <f aes es'>4-- <bes, aes' d>--
+  <d g d'> <c f c'> <bes es bes'> <g' des' g>
+  <<{fis'4. 8 f4. 8}\\{r8 c a r r b aes r}>>
+  <g c es>8. es16( <c f>8-.) 8-. <c fis>4-> <b g'>
+  \clef bass
+  g_\pll aes a_\< bes b c <aes des>\! <g b>
+  <g c>_\p\< <f c'>4 4 <f b>
+  \clef treble
+  <c' g'>_\mf <c aes'> <c a'> <c bes'>_\<
+  <f bes> <f c'> <es aes des> <es g b>
+  <c aes' c>4. 8 4\! <b g' b>
+  <c es g>4.->_\f 4.-> 4->
+  <c g' c> <bes f' bes> <<{<aes aes'>2}\\{es'4 d}>>
+  <g,d'g> <aes c f> <bes es g> <des es g>
+  \override TextSpanner.bound-details.left.text = "rall."
+  <c es g>2\startTextSpan <c fis>4 <b f'> <c es> 
+  c''2.*3/4->-\tweak style #'zigzag \glissando
+  \single \hideNotes c,,2.*1/4\stopTextSpan
+  r8 <c' es g c>4->_\ff 8 2
+  r8 <c f aes c>4-> 8->~ 8 8-. 4->
+  r8 <d f aes c>4-> 8 2
+  r8 <d es g c>4-> 8->~ 8 <c es g c>-. 4->
+  <c, es g>2._\pll 4 <a d fis>1 
+  <aes des f>2. 4 <g c es>1~ 2.
+  <d' f>8(\startTextSpan <es g>) 
+  <c aes'>4 <ges' es'>-- <f d'>-- <es c'>
+  <d b'>1\stopTextSpan\fermata\fine
+}
+
+lower = \relative c {
+\armure
+\lpiano_syle
+<c g' c>4.^\ffp 4. 4
+<c aes' c>4. 4. 4 <b aes' d>4. 4. 4
+<c g' c>4. 4. 4 1^\pl <c a'> <c aes'>
+<< {g'1} \\ {c,4. 4. bes4} >>
+<aes ges'>1^\< <g f'>2.\fermata c,,4->\f( c')
+\repeat unfold 40 {c,->( c')} bes'-- aes-- g--
+f es d bes g' f e c f f' bes, bes, es2-- e--
+f4 es d bes g8 g'4-> 8-. 4-- fis-- 
+f f' bes, bes \times 2/3 {es-- g-- f8-- es--}
+\times 2/3 {d4-- f-- es8-- d--}
+c4 b bes a aes g f bes, es d c bes a a aes g
+c c' bes bes aes aes g g f f es es d d des-- c--
+f f bes bes, es es d d \bar "||" c c f f bes, es es aes,
+d d g g, c c' bes, bes' aes, aes' <g d'> <f c'>
+es es' aes, aes, d d' d,8 f es d \bar "||"
+c4 c' bes, bes' aes, aes' g f es es aes aes d, d g8 f es d
+c4. c'4. 4 4. 4. 4 4. 4. 4 bes4. 4. 4
+aes4. 4. 4 d4. 8-. g,4. 8-. c4. 4. 4 bes4. 4. 4
+a a, d d' <<{r8 d bes'4 r8 g, e'4}\\{g,2 c,}>>
+<<{r8 c' aes'4 r8 f aes4}\\{f,2 bes}>>
+es,4 es aes aes, d4. 4. 4 g4. 4. 4
+<<{c1}\\{r4. c,4. 4}>>
+<<{bes'1}\\{r4. bes,4. 4}>>
+<<{aes'1}\\{r4. aes,4. 4}>>
+d'4 4 aes g
+<<{c1}\\{r4. c,4. 4}>>
+<<{bes'1}\\{r4. bes,4. 4}>>
+a'4. 8-. d,4. 8-.
+r8 g-. d'-. g r c,,-. g'-. c-.
+r8 f,-. c'-. f-. r bes,,-. f'-. bes-.
+r8 es,-. bes'-. es-. r aes,-. es-. aes,-.
+d4. 4. 4 g4. 4. 4 \bar "||"
+c,4.-> 4.-> 4-> d4.-> 4.-> 4->
+es4.-> 4.-> 4-> e4.-> 4.-> 4->
+f4.-> 4.-> 4-> g4.-> 4.-> 4->
+aes4. 8~ 8 8 bes c d4. c b4 bes1
+r8 f->( a-.) c-. g'(-> f)-. bes->( a-.)
+c->( bes-.) bes->( aes-.) aes->( g-.) g->( f-.)
+r es,->( g-.) bes-. f'->( es-.) aes16( g) bes8~-> 8
+aes8-. aes->( ges-.) 8->( f-.) 8->( es-.)
+r8 des,->( f-.) aes-. es'->( des-.) bes'->( aes-.)
+g4 \grace ges8( f4) d g, 
+aes aes' g, g'8 aes,16( a)
+<<{bes8( g' e' c bes g e c)}\\{bes1}>>
+<<{r8 f'( c') r f,( c') r4}\\{a,4. 4. f8( g)}>>
+<<{aes8( f' d' bes aes f d bes)}\\{aes1}>>
+<<{r8 es'( bes') r es,( bes') r4}\\{g,4. 4. es8 e16( f)}>>
+<<{ges8( es' c' aes ges es c aes)}\\{ges1}>>
+<<{r8 des' aes' des,} \\{f,2}>> f8->( e) f(-> fis)
+g4. 4. 4 4. 4. 4 1\fermata \bar "||"
+c'8.--^\mp 16-. b8-. 8-. bes4-- a--
+aes8.-- 16-. g8-. 8-. f4-- bes,--
+es8.-- 16-. d8-. 8-. c4-- bes8-- 8-.
+a4. 8 aes g'-. aes16 a bes b
+c8.-- 16-. b8-. 8-. bes4-- a--
+aes8.-- 16-. g8-. 8-. f4-- bes,--
+<es d'>8.-- 16-. <d c'>8-. 8-. c4-- bes8-- 8-.
+<<{r8 fis' c r8 r2}\\
+{a4. 8 aes4 g}
+>>
+<<{r8 g' es'4 r8 g, es'4}\\{c,2 2}>>
+<<{r8 c aes'4 r8 c, aes'4}\\{f,2 2}>>
+<es' bes'>4-- <d aes'>-- <c g'>-- <c' bes des es>--
+<<{r8 a fis' a, r8 aes f' aes,}\\{es2 d}>>
+c8.-- c'16-. b8-. 8-. bes4-- a--
+aes8.-- 16-. g8-. 8-. f4-- bes,
+es8.-- 16-. d8-. 8-. c4-- bes8-- 8-.
+a2 aes4 g
+<<{r8 g' es'4 r8 g, es'4}\\{c,2 2}>>
+<<{r8 c aes'4 r8 c, aes'4}\\{f,2 2}>>
+<es' bes'>4-- <d aes'>-- <c g'>-- <g' des' es>--
+<<{r8 a fis' a, r8 aes f' aes,}\\{es2 d}>>
+r8 b,->( c-.) es-. aes16( g) fis4->( g8-.)
+c8. 16 b4 bes a aes8. 16 g4 f bes, es8. 16 d4 c bes8 8
+a4 a' d, d' d, d' g, g, c c' c, g' f f' f, aes
+c, c' c, c8 c' r <c, c'>8 8 8 r8 8 8 8
+r aes' g c \tuplet 3/2 {bes4-- aes-- g8-- ges--}
+f4 e es d des c b bes es d c bes a2 aes4 g
+<<{r8 g'' es'4 r8 g, es'4}\\{c,2 2}>>
+<<{r8 c aes'4~ 4 }\\{f,2.}>> <bes f' aes>4
+<es bes'> < d aes'> <c g'> <g' bes des es>
+<<{r8 a fis' a, r8 aes f' aes,}\\{es2 d}>>
+<c c'>4 d aes g c1 <f, f'>2 bes4 es, aes d, g g, 
+\repeat unfold 5 {r8 <c c'>-> 8-> 8->} r8 <g g'>4-> 8->
+c'8.-- 16-. b8-. 8-. bes4-- a--
+aes8.-- 16-. g8-. 8-. f4-- bes,--
+es8.-- 16-. d8-. 8-. c4 bes8-. 8-.
+<a a'>2 <aes aes'>4 <g g'> <c c'> r4 r2
+\repeat unfold 8 {c'4 c,->}
+<c c'>2. 4 1~ 2. 4 4 4 4 4 4 4 4 bes'
+<<{ges'2 aes4 fis}\\{aes,1}>> <g g'>1\fermata\fine
+}
+
+piano = \new PianoStaff \with { instrumentName = "Piano" }
+  <<
+    \new Staff = "upper" \upper
+    \new Staff = "lower" \lower
+  >>
+
+\include "utils/full.ly"
+% \include "utils/tangoBase.ly"
