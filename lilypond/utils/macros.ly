@@ -59,16 +59,16 @@ hommes_style = {
 
 lpiano_syle = {
 \set Staff.midiInstrument = "acoustic grand"
-\set Staff.midiMinimumVolume = #0.2
-\set Staff.midiMaximumVolume = #0.4
+\set Staff.midiMinimumVolume = #0.3
+\set Staff.midiMaximumVolume = #0.5
 \clef bass
 \accidentalStyle modern-cautionary
 }
 
 rpiano_syle = {
 \set Staff.midiInstrument = "acoustic grand"
-\set Staff.midiMinimumVolume = #0.2
-\set Staff.midiMaximumVolume = #0.4
+\set Staff.midiMinimumVolume = #0.3
+\set Staff.midiMaximumVolume = #0.5
 \clef treble
 \accidentalStyle modern-cautionary
 }
