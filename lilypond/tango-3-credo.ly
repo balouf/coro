@@ -79,7 +79,36 @@ sop_music = {
   r8-. g[-.^\fa 8-. 8-.] aes-. 8-. 8-. g16 aes
   bes8-. 8-> r g-. es'8-. 4-> aes,8-.
   d-> g,-. r8 8-. c-. 4-> g8-.
-  c->\( bes-.\) 8->\( aes-.\) g8 16 16 es'8( d) c2 r
+  c->\( bes-.\) 8->\( aes-.\) g8 16 16 es'8( d) c2 r2
+  4^\ff 8 8 d4 c8 d es4 8 c aes'8. 16 8 d,
+  g8. c,16 8 8 f8. 16 8 c es4.-> d8 4. r8 
+  R1*2
+  c4^\f 4 4 4 4 8 8 4 b c r r2 r1
+  r8 c4 b8 d4-- c r8 8 8 b d4-- c
+  r4\startTextSpan r8 c,8 4 4 2 2\fermata\stopTextSpan
+  \bar"||"\break
+  \tempo "Moderato" 4=82
+  R1*8
+  g'2^"Solo"^\p 4 4 c1~ 2 4 4
+  2( bes4 aes) g1~ 1 R1*2
+  2. 4 c1~ 2. 4 2 bes4 aes g1 1 r^"Pochissimo più mosso"
+  r4 g(^\mf aes) bes b4. c8~8 d4 es8 d4. c b4
+  bes4. 8~8 4 8 4. aes g4 f4. 8~8 4 8 4. g8~8 bes4 aes8
+  g4. 8~8 f es f g2 2  \break 
+  r g4^\f 4 c1~2. 4 2 bes4 aes g1~1
+  1~1 \breathe \break
+  c2.^\f 4~4 d es f g1~2 f \breathe
+  es2. 4~4 g f es d2 c~1^"accel." \break
+  R1*8 \break
+  g2.^"tutti" 4 c4 4 4 4 4^"sempre accel." 4 4 4
+  2 bes4 aes g1~1 1~2.\breathe 4^\f
+  \break \tempo "Tempo I" 4=125
+  4. 4. 4 4. 4. r4 2. 4 2 r4 4
+  4.^\< 4. 4 4. 4. r4 2. 4 2.\! r4
+  c1^\ff 1 \breathe 1 1 \breathe
+  <c es>^\ff <c f> \breathe <c g'>
+  <<{f}\\{c2. d4}>> <a d>1~^\<\startTextSpan 1 \breathe
+  c^\fff c\fermata\stopTextSpan\fine
 }	
 
 
@@ -133,6 +162,34 @@ sop_lyrics = \lyricmode {
   se -- cun -- dum scri -- ptu -- ras
   et a -- scen -- dit in coe -- lum.
   
+  Se -- det ad dex -- te -- ram Pa -- tris;
+  et i -- te -- rum ven -- tu -- rus est 
+  ven -- tu -- rus est cum glo -- ri -- a.
+
+  Ju -- di -- ca -- re vi -- vos et mor -- tu -- os.
+  Cu -- jus re -- gni non e -- rit fi -- nis,
+  non e -- rit fi -- nis.
+  
+  Cre -- do in spi -- ri -- tum san -- ctum, __
+  Do -- mi -- num, __ et vi -- vi -- fi -- can -- tem,
+  
+  qui __ ex Pa -- tre __ Fi -- li -- o -- que
+  pro -- ce -- dit, __ qui cum Pa -- tre
+  et Fi -- lio __ si -- mul a -- do -- ra -- tur
+  et con __ glo -- ri -- fi -- ca -- tur,
+  qui lo -- co -- tus est per pro -- phe -- tas. __
+  
+  Cre -- do __ in u -- num De -- um, __
+  Pa -- trem __ o -- mni -- po -- ten -- tem. __
+  
+  Et ex -- spe -- cto re -- sur -- re -- cti -- o -- nem
+  mor -- _ tu -- o -- rum. __
+  et vi -- tam ven -- tu -- ri sae -- cu -- li 
+  et vi -- tam ven -- tu -- ri sae -- cu -- li
+  a -- men, a-- men, a -- men, a -- men, __
+  a -- men.
+
+
 }
 
 
@@ -190,7 +247,32 @@ alt_music = {
   g-> c,-> r c-> f-. 4-> d8-.
   f-> es-. 8-> des-. c8 16 16 a8-. b-. 
   c4 r8 es->~( 8) 4-> d8 4 c es f8 8 g2 2
-  r8 4 es8 f8 16 16 g8( f) es2 r
+  r8 4 es8 f8 16 16 g8( f) es2 r2
+  g4^\ff 8 8 4 8 8 4 aes8 8 c8. 16 b8 8
+  c8. g16 8 8 fis8. 16 8 8 g4.-> 8 4. r8 
+  R1*2
+  c4^\f 4 4 4 4 8 8 4 b c r r2 r1
+  r8 <c,g'>4 <d g>8 <es g>4-- 4 r8 8 8 <d g> <es g>4-- 4
+  r4 r8 c8 4 4 2 2\fermata
+  \bar"||"\break
+  \tempo "Moderato" 4=82
+  R1*48
+  c4.^\f 8~8 d es f g4. f8~2\breathe
+  g4. 8~8 c bes aes g4. 8~2 \breathe
+  c,4. 8~8 d es f g4. f8~2\breathe
+  g4. 8~8 c bes aes g4. 8~2 \breathe
+  c,4. 8~8 d es f g4. f8~2\breathe
+  g4. 8~8 c bes aes g4. 8~2 \breathe
+  c,4. 8~8 d es f g4. f8~2\breathe
+  g4. 8~8 c bes aes g4. 8~4 \breathe 4^\f
+  \break \tempo "Tempo I" 4=125
+  4. 4. 4 4. 4. r4 2. 4 2 r4 4
+  4.^\< 4. 4 4. 4. r4 2. 4 2.\! r4
+  es1^\ff f \breathe g f \breathe
+  g^\ff f2.( aes4) \breathe c1 aes <es g>~^\< 1 \breathe
+  c^\fff c\fermata\fine
+  
+
 }	
 
 
@@ -238,7 +320,28 @@ alt_lyrics = \lyricmode {
   ter -- ti -- a di -- e
   et a -- scen -- dit in coe -- lum.
 
-}
+  Se -- det ad dex -- te -- ram Pa -- tris;
+  et i -- te -- rum ven -- tu -- rus est 
+  ven -- tu -- rus est cum glo -- ri -- a.
+  
+  Ju -- di -- ca -- re vi -- vos et mor -- tu -- os.
+  Cu -- jus re -- gni non e -- rit fi -- nis,
+  non e -- rit fi -- nis.
+  
+  Cre -- do __ in u -- num De -- um, __
+  Pa -- trem __ o -- mni -- po -- ten -- tem. __
+  Cre -- do __ in u -- num De -- um, __
+  Pa -- trem __ o -- mni -- po -- ten -- tem. __
+  Cre -- do __ in u -- num De -- um, __
+  Pa -- trem __ o -- mni -- po -- ten -- tem. __
+  Cre -- do __ in u -- num De -- um, __
+  Pa -- trem __ o -- mni -- po -- ten -- tem. __
+  et vi -- tam ven -- tu -- ri sae -- cu -- li
+  et vi -- tam ven -- tu -- ri sae -- cu -- li
+  
+  a -- men, a -- men,  a -- men, __  a -- _ men, __ a -- men.
+  
+ }
 
 
 
@@ -292,7 +395,29 @@ ten_music = {
   r8 bes8-.8-.8-. aes4--4-- r8 8-.8-.8-.
   bes4--4-- r8 c-.8-.8-. b2 aes4 g8( f) es4 r r2
   r8 g-.8-.8-. aes4--4-- r8 b-.8-.8-. c4--4--
-  r8 aes4 c8 8 16 16 8( b) c2 r
+  r8 aes4 c8 8 16 16 8( b) c2 r2
+  es4^\ff 8 8 d4 es8 d c4 8 es8 8. 16 d8 8
+  bes8. 16 8 es8 c8. 16 8 8 4.-> b8 4. r8 
+  c4^\f 4 d d es4 8 8 4 d c1 r
+  r8 c4^\f b8 d4-- c r8 8 8 b d4-- c
+  r2 r8 es,4 g8 d'4-- c r4 r8 8 4 4 2 1\fermata \bar "||" \break
+  \tempo "Moderato" 4=82
+  R1*40
+  r2 r4 c^\mf 2. 4 1 2 4 4 2 2 \breathe
+  2. 4 2. 4 4 4 4 4 2 4 \breathe
+  c4 2. 4 1 2 4 4 2 2 \breathe
+  2. 4 2. 4 4 4 4 4 2 4 \breathe
+  c4 2. 4 1 2 4 4 2 2 \breathe
+  2. 4 2. 4 4 4 4 4 \break
+  \tempo "Tempo I" 4=125
+  2 2 R1*2 r2 r4 g^\f
+  4.^\< 4. 4 4. 4. r4 2. 4 2.\! r4
+  g1^\ff f2.( aes4) \breathe c1 aes \breathe
+  c^\ff c \breathe c c2. b4 c1~^\< 1 \breathe
+  1^\fff 1\fermata\fine
+  
+
+
 }	
 
 
@@ -346,6 +471,24 @@ ten_lyrics = \lyricmode {
   et re -- sur -- re -- xit,
   et a -- scen -- dit in coe -- lum.
 
+  Se -- det ad dex -- te -- ram Pa -- tris;
+  et i -- te -- rum ven -- tu -- rus est 
+  ven -- tu -- rus est cum glo -- ri -- a.
+  
+  Ju -- di -- ca -- re vi -- vos et mor -- tu -- os.
+  Cu -- jus re -- gni non e -- rit fi -- nis,
+  Cu -- jus re -- gni non e -- rit fi -- nis.
+  
+  Con -- fi -- te -- or u -- num ba -- pti -- sma
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Con -- fi -- te -- or u -- num ba -- pti -- sma
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Con -- fi -- te -- or u -- num ba -- pti -- sma
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  
+  et vi -- tam ven -- tu -- ri sae -- cu -- li
+  
+  a -- men, __ a -- men,  a -- men,  a -- _ _ men, __ a -- men.
 }
 
 
@@ -405,6 +548,28 @@ bass_music = {
   r8 des8-.8-.8-. d4-- g,--
   c r8 8->(~ 8) bes4-> 8 es4--4-- r8 c8-.8-.8-.
   f4--4-- r8 es8-.8-.8-. aes,2 d4 g, c2 r
+  c'4^\ff 8 8 bes4 8 8 aes4 g8 8 f8. 16 bes,8 8
+  es8. 16 8 8 aes8. 16 8 8 g4.-> 8 4. r8 
+  c4^\f 4 d d es4 8 8 4 d c1 r
+  r8 <g c,>4^\f <g d>8 <g es>4-- 4 r8 8 8 <g d> <g es>4-- 4
+  r2 r8 es4 g8 d'4-- c r4 r8 c,8 4 4 2 1\fermata \bar "||" \break
+  \tempo "Moderato" 4=82
+  R1*32
+  c1^\mf d2~8 c d c es2. d8 c d c d4 r g, c2. 4 d2. 4
+  es2. d8 c d c d2. \breathe
+  c1 d2~8 c d c es2. d8 c d c d4 r g, c2. 4 d2. 4
+  es2. d8 c d c d2. \breathe
+  c1^\f d2~8 c d c es2. d8 c d c d4 r g, c2. 4 d2. 4
+  es2. d8 c d c d2. \breathe
+  c1 d2~8 c d c es2. d8 c d c d4 r g, c2. 4 d2. 4
+  es2. d8 es e d e2.  \break
+  \tempo "Tempo I" 4=125
+  R1*3 r2 r4 g^\f
+  4.^\< 4. 4 4. 4. r4 2. 4 2.\! r4
+  c,1 d \breathe es d \breathe
+  c d \breathe es d2. g4 <g c,>1~^\< 1 \breathe
+  c,^\fff c\fermata\fine
+
 }	
 
 
@@ -460,6 +625,30 @@ bass_lyrics = \lyricmode {
   Et re -- sur -- re -- xit,
   et re -- sur -- re -- xit,
   se -- cun -- dum scri -- _ ptu -- ras.
+  
+  Se -- det ad dex -- te -- ram Pa -- tris;
+  et i -- te -- rum ven -- tu -- rus est 
+  ven -- tu -- rus est cum glo -- ri -- a.
+  
+  Ju -- di -- ca -- re vi -- vos et mor -- tu -- os.
+  Cu -- jus re -- gni non e -- rit fi -- nis,
+  Cu -- jus re -- gni non e -- rit fi -- nis.
+  
+  Cre -- do __ in u -- nam
+  san -- ctam ca -- tho -- li -- cam
+  et a -- po -- sto -- li -- cam ec -- _ cle -- si -- am.
+  Cre -- do __ in u -- nam
+  san -- ctam ca -- tho -- li -- cam
+  et a -- po -- sto -- li -- cam ec -- _ cle -- si -- am.
+  Cre -- do __ in u -- nam
+  san -- ctam ca -- tho -- li -- cam
+  et a -- po -- sto -- li -- cam ec -- _ cle -- si -- am.
+  Cre -- do __ in u -- nam
+  san -- ctam ca -- tho -- li -- cam
+  et a -- po -- sto -- li -- cam ec -- _ cle -- si -- am.
+  
+  et vi -- tam ven -- tu -- ri sae -- cu -- li
+  a -- men, a -- men, a -- men, a -- _ _ men, __ a -- men.
 
 }
 
@@ -603,7 +792,87 @@ upper = \relative c {
   <b d g>4--4-- r8 <c g'>8-.8-.8-.
   2 <<{f}\\{c4( b)}>> <g c es>_\< r r
   \tuplet 3/2 {<g c>8 <gis cis> <a d>}
-  <es' c'>_\ff
+  <es' c'>4(_\ff c'8 8 <aes d>4 c8 d <es g,>4 8)
+  c( <aes es'aes>8. 16 8 d <g, c g'>8. <g c>16 8)
+  8( <fis c'f!>8. f'16 <f c fis,>8 c <g c es>4. <g b d>8 2)
+  r8 <g, c es>4.-> r8 4.-> r8 4.-> r8 4.->
+  r8 <aes c f>4.-> r8 4.-> r8 4.-> <<{<aes f'>2--}\\{c4 b}>>
+  \clef bass 
+  r8 <es, g c>4->( <es g b>8) <es g d'>4-- <es g c>
+  r8 8 8->( <es g b>) <es g d'>4-- <es g c> 
+  \clef treble
+  r8 <es'g c>4-> <es g b>8 <es g d'>4-- <es g c>
+  r8 8 8 <es g b> <es g d'>4-- <es g c>
+  r1\startTextSpan r1\fermata\stopTextSpan
+  \bar "||" \break \clef bass
+  \tempo "Moderato" 4=82
+  c,1_\p d es d c d es d \clef treble
+  r8^"\"eight notes phrasing\"" g( c es g2)
+  r8 aes,( c d g2) r8 g,( c es g2) r8 aes,( c d g2)
+  r8 g,( c es g2) r8 aes,( c d g2) r8 g,( c es g2) r8 aes,( c d g2)
+  r8 g,( c es g2) r8 aes,( c d g2) r8 g,( c es g2) r8 aes,( c d g2)
+  r8 g,( c es g2) r8 aes,( c d g2) r8 g,( c es g2) 
+  r4 g'(_\mf aes bes b4. c8~8 d4 es8 d4. c b4)
+  bes4.( 8~8) 4( 8 4. aes g4 f4. 8~8) 4( 8 4. g8~8 bes4 aes8
+  g4. 8~8 f es f g)_\f aes,,[->( c)-. d] g->( aes-.) c->( d)-.
+  <g,, c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <g c es g>8->_\mf 8-. r4 4--_\p r
+  <aes c d g>8->_\mf 8-. r4 4--_\p r
+  <c es g c>8->_\f 8-. r <d d'>(-> <es es'>)-. <g g'>-. <d'd'>4--^"accel."
+  <c, f g c>8-> 8-. r <g' g'>(-> <aes aes'>)-. <c c'>-. <g'g'>4--
+  <c,, es g c>8-> 8-. r <d' d'>(-> <bes bes'>)-. <g g'>-. <d d'>4--
+  <c f g c>8-> 8-. r <c'd f g>-. 8-.8-.4->
+  <c, es g c>8-> 8-. r <d d'>(-> <es es'>)-. <g g'>-. <d'd'>4--^"accel."
+  <c, f g c>8-> 8-. r <g' g'>(-> <aes aes'>)-. <c c'>-. <g'g'>4--
+  <c,, es g c>8-> 8-. r <d' d'>(-> <bes bes'>)-. <g g'>-. <d d'>4--
+  <c f g c>8-> 8-. r <c'd f g>-. 8-.8-.4->
+  <es, g c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <f aes c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <es g c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <f aes c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <es g c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <f aes c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <es g c>8->[ 8-.8-.] 8->[ 8-.8-.] 8->[ 8-.]
+  <c g' bes c>8->[ 8-.8-.] 8->[ 8-.8-.] 
+  c''4*3/4->-\tweak style #'zigzag \glissando
+  \single \hideNotes c,,4*1/4
+  \break
+  \tempo "Tempo I" 4=125
+  g'8([_\f es aes,]) g'8([ es aes,]) g'8([ es ])
+  g8([ d aes]) g'8([ d aes]) g'8([ d ])
+  g8([ d g,]) g'8([ d g,]) g'8([ d ])
+  g8([ c, g]) g'8([ c, g]) g'8([ c,])
+  g'8([_\< c, aes]) g'8([ c, aes]) g'8([ c,])
+  g'8([ c, aes]) g'8([ c, aes]) g'8([ c,])
+  g'8([ c, aes]) g'8([ c, aes]) g'8([ c,])\!
+  g'8([ c, aes]) g'8([ c, aes]) g'8([ c,])
+  r8 <g c es g>-._\ff8-. r8 8-.8-. r8 8-.
+  r8 <aes c d g>-.8-. r8 8-.8-. r8 8-.
+  r8 <g c es g>-.8-. r8 8-.8-. r8 8-.
+  r8 <aes c d g>-.8-. r8 8-.8-. 
+  g'''4*3/4_\ff-\tweak style #'zigzag \glissando
+  \single \hideNotes g,,4*1/4
+  es'8([ c g]) es'([ c g]) es'16([ c g8])
+  d'8([ aes f]) d'([ aes f]) d'16([ aes f8])
+  c'8([ g es]) c'([ g es]) c'16([ g es8])
+  r2 d8( <d f aes c>)-> r <d f aes b>-.
+  \clef bass
+  r8\startTextSpan a->(_\< g)-. f-. g->( es)-. d->( es)-.
+  c-. a'->([ g)-. f-.] g->( es)-. d->( es)-.\! \breathe
+  r2 <a c es g>4->_\fff 4-> \repeat tremolo 32 {32->\fermata\stopTextSpan}\fine
 }
 
 
@@ -674,6 +943,59 @@ lower = \relative c {
   r8 des'8-.8-.8-. d4-- g,--c4 r8 8->~ 8 bes4-> 8
   es4-- 4-- r8 c-.8-.8-. f4--4-- r8 es8-.8-.8-.
   aes,2 d4( g,) c,8(-> d) es-. f-. g(-> aes) \tuplet 3/2 {a bes b}
+  c4 c, bes'bes, aes'g f bes, es es'aes,aes,->(g2~8)
+  aes'[^\f( bes-.) b]-. c4( c,) bes'( bes,) aes'( aes,) g'(g,)
+  f''( f,) es'( es,) d'd, g4 8 c,~-> 8 c'-> r4 4-- r8 
+  c,~-> 8 c'-> r4 4-- r8  c,~-> 8 c'-> r4 4-- r8  c,~-> 8 c'-> r4 4-- r8 
+  <c c,>-> 4-> 4-> 2-> 1->\fermata \bar "||" \break
+  \tempo "Moderato" 4=82
+  c,8 8 r4 4 r4  d8 8 r4 4 r4 es8 8 r4 4 r4 d8 8 r4 4 r4 
+  c8 8 r4 4 r4  d8 8 r4 4 r4 es8 8 r4 4 r4 d8 8 r4 4 r4 
+  c'1 d es d c d es d c d es d c d es 
+  <<{r8 bes'( des g~2)}\\{e,1}>>
+  <<{r8 aes( c es!~2)}\\{f,1}>>
+  <<{r8 f( aes d~2)}\\{bes,1}>>
+  <<{r8 g'( bes d~2)}\\{es,1}>>
+  <<{r8 es( g c~2)}\\{aes,1}>>
+  <<{r8 aes'( c) r aes( c) r4}\\{d,4. c bes4}>>
+  <<{r8 d( aes') r d,( aes') r4}\\{aes,4. g f4}>>
+  <<{r8 c'( g') r c,2}\\{es,4. d aes'4}>>
+  <<{r2 <f'aes c>}\\{g,2. r8 c,->}>>
+  c'-> 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 4-- r8 es,->(
+  es'->) 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 4--  g,
+  c8-> 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 4-- r8 es,->
+  es'-> 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 d8 es d des
+  c-> 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 4-- r8 es,->(
+  es'->) 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 4--  g,
+  c8-> 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 4-- r8 es,->
+  es'-> 8-. r4 4-- r8 d,->(
+  d'->) 8-. r4 d8 es d des
+  c8->8-. r4 r2 d8->8-. r4 r2
+  es8->8-. r4 r2 d8->8-. r <c'd f g>-.8-.8-.4->
+  c,8->8-. r4 r2 d8->8-. r4 r2
+  es8->8-. r4 r2 d8->8-. r <c'd f g>-.8-.8-.4->
+  c,4. 4. 4 d4. 4. 4 es4. 4. 4 d4. 4. 4
+  c4. 4. 4 d4. 4. 4 es4. 4. 4 e4. 4. 4
+  \break
+  \tempo "Tempo I" 4=125
+  f,4. 4. 8( g) bes4. 4. bes,4
+  es4. 4. 8 f aes4. 4. 4
+  d4. c bes4 aes4. g f4 es4. d aes'4 g4. 4. 4
+  <c c,>4. 4. 4 <d d,>4. 4. 4 <es es,>4. 4. 4 <d d,>4. 4. 4
+  c8([ g'es']) c,8([ g'es']) c,16([ g'es'8])
+  d,8([ f c']) d,8([ f c']) d,16([ f c'8])
+  es,8([ g c]) es,8([ g c]) es,16([ g c8])
+  d,( f aes c) r4 <g,g,>->
+  r8 a'->( g)-. f-. g->( es)-. d->( es)-.
+  c-. a'->([ g)-. f-.] g->( es)-. d->( es)-. \breathe
+  r2 <c c,>4-> 4-> \repeat tremolo 32 {32->\fermata}\fine
 }
 
 piano = \new PianoStaff \with { instrumentName = "Piano" }
@@ -683,5 +1005,5 @@ piano = \new PianoStaff \with { instrumentName = "Piano" }
     \new Staff = "lower" \lower
   >>
 
-%\include "utils/full.ly"
-\include "utils/tangoBase.ly"
+\include "utils/full.ly"
+%\include "utils/tangoBase.ly"
