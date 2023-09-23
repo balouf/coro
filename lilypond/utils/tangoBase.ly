@@ -4,7 +4,7 @@
         \layout {
   \context {
     \Staff
-    \RemoveEmptyStaves
+    \RemoveAllEmptyStaves
   }
 }
 <<

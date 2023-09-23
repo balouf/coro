@@ -4,7 +4,7 @@
         \layout {
   \context {
     \Staff
-    \RemoveEmptyStaves
+    \RemoveAllEmptyStaves
   }
 }
 <<
@@ -37,7 +37,7 @@
         \layout {
   \context {
     \Staff
-    \RemoveEmptyStaves
+    \RemoveAllEmptyStaves
   }
 }
  \piano
