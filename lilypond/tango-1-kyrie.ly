@@ -263,15 +263,15 @@ alt_lyrics = \lyricmode {
   Ky -- ri -- e e -- le -- i son,
   e -- le _ -- _ i -- son.
   
-  Ky -- ri -- e e --
+  Ky -- ri -- e e -- 
   le -- i -- son,
   e -- le _ _ -- _ _ _ _ i -- son,
   Ky -- ri -- e e -- le -- i son,
   Ky -- ri -- e e -- le -- i son,
   Ky -- ri -- e e -- le -- i son. __
   Ky -- rie~e -- le -- i -- son,
-  Ky -- ri -- e e -- lei -- son,
-  Ky -- rie~e -- le -- i -- son,
+  Ky -- ri -- e e -- le -- i -- son,
+  e -- le -- i -- son,
   Ky -- rie~e -- le -- i -- son,
   Ky -- ri -- e e -- le -- i -- son. __ _
   
@@ -344,7 +344,7 @@ ten_music = {
   d4 8 4. aes4 g es'8 4. r4
   g,4^\pl 8 4. 4 a4 8 4. r4
   aes4 8 4. 4 g4 8 4. \breathe
-  4 ges2^"rit."\< aes4-- fis g2.\!\fermata r4 \bar "||"
+  4 ges2^"rit."\< aes4-- fis-- g2.\!\fermata r4 \bar "||"
   R1*8 \break r8\mf g4-> f16( g) aes4. g16( aes)
   bes aes bes4 g8-. es'4.-- d16 c
   d8 g, c4~-- 8 bes16 aes bes4
@@ -918,5 +918,5 @@ piano = \new PianoStaff \with { instrumentName = "Piano" }
     \new Staff = "lower" \lower
   >>
 
-\include "utils/full.ly"
-% \include "utils/tangoBase.ly"
+% \include "utils/full.ly"
+\include "utils/tangoBase.ly"
