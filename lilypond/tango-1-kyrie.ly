@@ -465,7 +465,7 @@ ten_lyrics = \lyricmode {
   Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- le -- i -- son. __
   Ky -- ri -- _ e e -- _ le -- i -- son, e -- le -- _ _ _ _ _ _ i -- son.
   Ky -- ri -- e e -- lei -- son.
-  Ky -- ri -- e Ky -- ri -- e Ky -- ri -- e Ky -- ri -- e. __
+  Ky -- ri -- e Ky -- ri -- e Ky -- ri -- e e -- lei -- son. __
   e -- lei -- son.
   e -- le -- i -- son.
   Ky -- ri -- e e -- lei -- son,
@@ -918,5 +918,5 @@ piano = \new PianoStaff \with { instrumentName = "Piano" }
     \new Staff = "lower" \lower
   >>
 
-% \include "utils/full.ly"
-\include "utils/tangoBase.ly"
+\include "utils/full.ly"
+% \include "utils/tangoBase.ly"
