@@ -60,6 +60,30 @@ sop_music = {
   c8(^\< b16 c d8) e e4.--^\f d16( c) d8 g, c4--~8 b16( a) b4 \breathe
   b4.-- a16( g) a4^\> \breathe a4--~8 g16( fis) g4\!
   R1*5
+  f2^\p g a4 2 d4~( 4 cis e) d \breathe
+  bes8( d) c( bes) c( e) d( c) d( f e d e16 d) e4.
+  r4 e->^\ff r4 e-> r e-> r e-> 
+  d( c b) a\breathe a2.^\> gis4\!
+  R1*2
+  r4 d'^\mf c2 b1\breathe
+  a4.^\f gis16( a) b4. a16( b) c16(^\cresc b) c4.\breathe
+  f e16( d) e8 a, d4~( 8 c16 b) c4 \breathe
+  a4. gis16( a) b4. c16( d) c( b) a4.~2\!
+  \break
+  \override TextSpanner.bound-details.left.text = "rit."
+  c4^"Solo"\startTextSpan 4 4 4 1~1\fermata\stopTextSpan 1^"A tempo"
+  R1*4
+  r8 d4.~^\mf^"Solo" 2 c1^\cresc r8 e4.~2 d1
+  r8 e4 d8 r e4 d8 1 c1~1 r8 d4. c2
+  r8 e4. d2 r8 e4 d8 g4 f d1 \after 2 ^"allarg." e\!
+  c4.^\fam^"Sopr. (tutti)" 8 4 4 2 2 \breathe
+  d4. 8 e4 d d2 c\breathe
+  c4.^\spl 8 8( g) e( g) fis2 2 \breathe
+  f4. 8 g4 f e1 c\breathe
+  c1 1^\decresc \breathe 1 1 \breathe
+  \override TextSpanner.bound-details.left.text = "rall."
+  1 1~\startTextSpan2. r4 \breathe e1^\ppp^\> c c\!\stopTextSpan\fine
+  
 }	
 
 
@@ -84,7 +108,32 @@ Do -- na __ no -- bis __ pa -- cem,
 do -- na __ no -- bis pa -- _ cem, pa -- cem,
 do -- na no -- bis pa -- _ _ cem.
 
+Do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis pa -- _ cem,
+pa -- _ cem,
+do -- na __ no -- bis pa -- _ cem, pa -- cem,
+do -- na __ no -- bis pa -- _ cem,
+pa -- _ cem, pa -- _ cem.
 
+Do -- na no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na no -- bis pa -- cem, pa -- cem,
+pa -- _ cem.
+Do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem. __
+
+do -- na no -- bis pa -- cem.
+Pa -- cem, pa -- cem,
+do -- na no -- bis pa -- cem. __
+Pa -- cem, pa -- cem,
+do -- na no -- bis pa -- cem.
+
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis __ pa -- cem,
+do -- na no -- bis pa -- cem,
+pa -- cem, pa -- cem, pa -- cem, __ pa -- cem, m
 }
 
 
@@ -132,6 +181,38 @@ alt_music = {
   e8^\< d16( e) f8 a b4.--^\f a16( b)
   a8 d, g4--~8 f16( e) f4\breathe
   f4.--(^\> e16 d e4) <dis f>\! R1*5
+  f2.^\p e4 g a \breathe
+  f8( a) g( f) g( bes) a( g) a( c bes a a16 g) a4.~2 \breathe
+  a2. gis4 r4 a->^\ff r a-> r g-> r a->
+  g (f2) e4 \breathe e2( dis4) d \breathe
+  e4.^\mp d16( e) f4. e16( f) g( f) g4.\breathe
+  a g16( f) g8 c, f4~( 8 e16 d) e4 \breathe
+  e4. d16( e) f4. g16( a) g( f) e4. \breathe
+  4^\f 4 4.^\cresc f16( g) a4. g16( f) e8 8 f4( e8 a) 4\breathe
+  e2( dis4 d) e1\!
+  R1*2 r1\fermata 
+  c4.^\p^"Alto+Bass" b16( c) d4. c16( d) e( d) e4.\breathe
+  f e16( d) e8 8 d4~( 8 c16 b) c4\breathe
+  c8 b16( c) 8 b16( c) c( b) c4. \breathe
+  c b16( c) d4. c16( d)e( d) e4. \breathe
+  f4. e16( d) e8^\cresc 8 d4~( 8 c16 b) c4 \breathe
+  c8 b16( c) 8 b16( c) c( b) c4. \breathe
+  c4. b16( c) d4. c16( d) e( d) e4. \breathe
+  f4. e16( d) e8 8 a4~( 8 g16 f) g4\breathe
+  g4.( f16 e) f8 4--( e16 d) e8 4--( e16 d) d2
+  r8 c4 b16( c) d8 c16( d) e( d) e8
+  r8 f4 e16( f) g8 f16( g) a( g) a8 \breathe
+  c4. b16( a) b8 a16( g) a8( g16 f) g8 \breathe
+  4-- f16( e) f8 e16( d) e8( d16 c e d) c4.\!
+  \breathe
+  a'8(^"Alto only" g16 a gis8) fis16( gis)
+  e4.^\fam 8 4 4 f2 2 \breathe
+  4. 8 4 4 e2 2\breathe
+  4.^\spl 8 4 c d2 2\breathe
+  des4. 8 4 4 c1 1\breathe
+  c1 1^\decresc \breathe 1 1 \breathe
+  1 1~2. r4 \breathe 1^\ppp^\> c c\!\fine
+  
 }	
 
 
@@ -156,6 +237,51 @@ do -- na no -- bis pa -- cem,
 do -- na __ no -- bis pa -- _ cem,
 do -- na no -- bis, do -- na __ no -- bis __
 pa -- _ _ cem, __ pa -- cem.
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- _ cem,
+do -- na no -- bis pa -- cem, pa -- cem,
+do -- na __ no -- bis pa -- _ cem,
+do -- na __ no -- bis pa -- _ cem, pa -- _ _ cem,
+do -- na no -- bis pa -- _ cem, pa -- cem.
+
+Do -- na no -- bis,
+do -- na __ no -- bis __ pa -- cem, __ pa -- cem,
+do -- na no -- bis pa -- cem, pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem.
+Do -- na no -- bis __ do -- na __ no -- bis pa -- cem,
+pa -- cem.
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na __  no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+pa -- cem, pa -- cem, pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+pa -- cem, pa -- cem, pa -- cem, __ pa -- cem, m
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -197,7 +323,33 @@ ten_music = {
   d4.--^\f c16( b) c8 f, b4--~8 a16( g) a4 \breathe
   b4^\< c e-- d--\! d-- c-- c2.^\> e4\!
   R1*5
-  
+  a,8^\p( c) bes( a) bes( d) c( bes) c( e d c d16 c) d4.\breathe
+  e2 f f4( e) d( c) b2 bes r4 c->^\ff r d-> r c-> r c->
+  b( a d) c \breathe 2. b4 \breathe
+  a8(^\mp c) b( a) b( d) c( b)
+  c( e d c c16 b) c4. r4 b( c a) d1\breathe
+  c4.^\f b16( c) 4. 16( b) a(^\cresc b) a4.\breathe
+  c4 b g gis a c\breathe
+  4. b16( a) 4. gis16( b) a( b) c4.~2\!
+  R1*2 r1\fermata R1*2
+  c,4.^\p^"Soprano+Tenor" b16( c) d4. c16( d) e( d) e4.\breathe
+  f e16( d) e8 8 d4~( 8 c16 b) c4\breathe
+  8 b16( c) 8 b16( c) d8( e16 f) g4 \breathe
+  g4.^\cresc f16( g) a4. g16( a) b( a) b4. \breathe
+  c4. b16( a) b8 8 a4~(8 g16 f) g4 \breathe
+  c,4. b16( c) d4. c16( d) e( d) e4. \breathe
+  f4. e16( d) e8 8 a4~( 8 g16 f) g4\breathe
+  g4.--( f16 e) f8 4--( e16 d) e8 4--( d16 c) d2
+  r8 c4 b16( c) d8 c16( d) e( d) e8 \breathe
+  r8 f4 e16( f) g8 f16( g) a( g) a8 \breathe
+  c4. b16( a) b8 a16( g) a8( g16 f g f) g4.\breathe
+  a8( g16 a b8) a16( b)\!
+  g4.^\fam^"Tenor only" 8 4 4 a2 2 \breathe
+  4. 8 4 aes g2 2 \breathe
+  4.^\spl 8 4 4 a2 2\breathe
+  aes4. 8 4 4 g1 c,\breathe
+  c1 1^\decresc \breathe 1 1 \breathe
+  1 1~2. r4 \breathe g'1^\ppp^\> c, c\!\fine
   
   
   
@@ -223,7 +375,43 @@ Do -- na __ no -- bis __ pa -- cem,
 do -- na __ no -- bis pa -- _ cem,
 do -- na __ no -- bis pa -- _ cem,
 do -- na no -- bis,
-do -- na __ no -- bis __ pa -- cem, __
+do -- na __ no -- bis __ pa -- cem.
+
+Do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis pa -- _ cem,
+pa -- cem,
+do -- na __ no  -- bis pa -- _ cem,
+do -- na no -- bis pa -- cem, pa -- cem.
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na no -- bis __ pa -- cem,
+do -- na no -- bis pa -- cem, pa -- cem,
+do -- na __ no -- bis __ pa -- em, pa -- cem.
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem. __
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na __  no -- bis pa -- cem,
+
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+pa -- cem, pa -- cem, pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis __ pa -- cem, pa  -- cem,
+do -- na  no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+pa -- cem, pa -- cem, pa -- cem, __ pa -- cem, m
+
+
+
 }
 
 
@@ -263,7 +451,23 @@ a4. g16( f) g8 c, f4~8 e16( d) e4 \breathe
 b'2^\p a g f^\cresc e d c \breathe
 f4.-- e16( d) e8 a, d4--~8 c16( b) c4 r2
 a'4.--^\f g16( f) g8 c, f4--~8 e16( d) e4 \breathe
-f4.-- e16( d) e4 a,-- d2.--^\> g4\! R1*5
+f4.-- e16( d) e4 a,-- d2.--^\> g4\! R1*10
+a,4.^\ff gis16( a) b4. a16( b) c16( b) c4. \breathe
+f4. e16( d) e8 a, d4~( 8 c16 b) c4 \breathe
+a4. gis16( a) b4. c16( d) c(^\mp b) a4. \breathe 
+d2 e \breathe
+f8( a) g( f) g( b) a( gis) a( c b a a16 gis a8~2) gis4\breathe
+a^\f gis g fis f(^\cresc e d) g, \breathe 
+c( b a) g'\breathe fis2( f4 e) a,1\!
+R1*20 \break 
+%e'16( d) c4. 
+s2 \breathe a'8(^"Bass" g16 f e8) 16( d)
+c4.^\fam 8 4 4 2 2 \breathe
+4. 8 4 4 2 2 \breathe 4.^\spl 8 4 4 2 2 \breathe
+4. 8 4 4 1 1\breathe
+c1 1^\decresc \breathe 1 1 \breathe
+1 1~2. r4 \breathe 1^\ppp^\> c c\!\fine
+
 }	
 
 
@@ -288,6 +492,25 @@ do -- na __ no -- bis pa -- cem,
 do -- na __ no -- bis pa -- _ cem, pa -- _ _ cem,
 do -- na __ no -- bis __ pa -- cem,
 do -- na no -- bis pa -- _ cem.
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- _ cem,
+do -- na no -- bis pa -- _ cem,
+do -- na __ no -- bis pa -- _ cem,
+do -- na __ no -- bis pa -- _ cem,
+do -- na __ no -- bis pa -- cem.
+
+Do -- na __ no -- bis __ pa -- cem,
+do -- na __ no -- bis pa -- cem,
+do -- na __ no -- bis __ pa -- cem, pa -- cem, 
+do -- na __ no -- bis __ pa -- cem.
+Do -- na no -- bis pa -- cem, pa-- cem, pa -- cem.
+
+pa  -- cem, do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+do -- na no -- bis pa -- cem,
+pa -- cem, pa -- cem, pa -- cem, __ pa -- cem, m
 }
 
 
@@ -371,10 +594,58 @@ r8 a~ c~ f~ <a, c f>4
 \set tieWaitForNote = ##f
 <b dis f>
 <<
-  {g''4. fis16 g gis4. fisis16 gis}
+  {g''4. fis16 g gis4. fisis16 gis
+  a gis a4. c4. b16 ais
+  b8 dis, b'a16 b a g a4.
+  f4. e16 f g8 f f g
+  f4. e16 f e2}
   \\
-  {c,8 e d c d fis e d}
+  {c8 e d c d fis e d
+  e g f e e16 d e4.
+  g,8 b a g a c b a
+  a c b a b d c b
+  bes des c bes bes16 a bes8 g16 fis g8}
 >>
+f4.^\p e16 f g4. f16 g a g a4.
+d, cis16 d e4. d16 e f e f4.
+g4. f16 g a4. g16 a
+<<{b a b4. a4 gis}\\{d1}>>
+r4_\ff <e a c e>-> r <f a b e>->
+r <e g c e>-> r <e a c e>->
+<g d'>( <f c'> <f b> <e a> 
+<<{<c e a>2.}\\{s2 dis4}>>
+<b d gis>4)
+a8 c b a b d c b c e d c c16 b c4.
+r4 <f a d> <e a c>2 <d e b'>1
+<<
+  {a'4._\f gis16 a b4. a16 b c_\cresc b c4. f e16 d
+  e8 a, d4~8 c16 b c4 
+  a4. gis16 a b4. c16 d c b a4.~2\!}
+  \\
+  {e2 2 2 a g4 f e2 s1 s1}
+>>
+\override TextSpanner.bound-details.left.text = "rit."
+<a, c>1\startTextSpan <ges c> <f c'>2.\fermata\stopTextSpan
+r4_\p r1^"A tempo" R1*4
+r8 <e' g b d>4.~-> 2 < e g a c>1_\cresc
+r8 <f a c e>4.~-> 2 <f a c d>1
+r8 <f a c e>4->( <f a c d>8-.)
+r8 <f aes b e>4->( <f aes b d>8-.) <e g b d>1
+<e g a c>1~1 r8 <e g b d>4.-> <e g a c>2
+r8 <f a c e>4.-> <f a c d>2 r8 <f a c e>4-> <f a c d>8-.
+r8 <a c e g>4-> <a c d f>8-. <e g b d>1
+<g a c e>2 
+a8^"allarg." g16 a <gis b>8 <fis a>16 <gis b>\!
+<e c'>4._\fam 8 4 4 <f c'>2 2
+<f d'>4. 8 <f e'>4 <f d'> <e d'>2 <e c'>
+<e g>1_\spl <d fis> <<{f2 g4 f}\\{des1}>>
+c4. b16( c) d4. c16( d) e( d) e4. f4. e16( d)
+e8 8 d4~8 c16( b) c4
+8_\decresc b16( c) 8 b16( c) c( b) c4.
+4. b16( c) d4. c16( d) e( d) e4. f e16( d) 
+e8 8 d4~8 c16( b c4)\!
+\override TextSpanner.bound-details.left.text = "rall."
+a4.\startTextSpan b16( a) aes2 g1_\ppp r r r\stopTextSpan\fine
 }
 
 
@@ -412,7 +683,23 @@ b'2^\p a g f^\cresc e d c
 f4.-- e16 d e8 a, d4--~8 c16 b c4 r2
 a'4.-- g16 f\! g8 c, f4--~8 e16 d e4
 f4.-- e16 d e4 a,-- d2.-- g4
-c2^\f b
+c2^\f b a d g,4 c2 cis4 d2 g, g'g,
+R1*3 e'4 d c b <b b,>2 <bes bes,>
+a,4.( gis16 a b4. a16 b c b c4.)
+f4.( e16 d e8 a, d4~ 8 c16 b c4)
+a4.(^\> gis16 a b4. c16 d c^\mp b a4.) <d f>2
+<e g> f8 a g f g b a gis a c b a a16 gis a8~2 gis4
+<<{c2 2 a c4 b}\\{a gis g fis f e d g,}>>
+<c g'> <b gis'> <a a'> <g'a> 
+<fis a e'>2 <f a es'>4 <e gis d'> <a e a,>1
+<a, e'> <aes es'> <g d>2.\fermata
+c,4->( <c'c'>)^"marcato \"Pugliese\""
+\repeat unfold 34 {c,->( <c'c'>)}
+c,->( a''8) g16 <f a> <e b'>8 <e a>16( <d b'>
+<c g'>4.) 8 4 4 <c a'>2 2 4. 8 4 <c aes'>
+<c g'>2 2 1 <c a'> <c aes'> <c c'>4
+\repeat unfold 13 {c,->( <c'c'>)}
+c,->( <c c'>1) 1~1~\fermata 1\fermata r \fine
 }
 
 

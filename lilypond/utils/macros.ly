@@ -11,11 +11,13 @@ normal = {
 
 pe = \markup {\dynamic p \italic espressivo}
 pl = \markup {\dynamic p \italic legato}
+spl = \markup {\italic subito \dynamic p \italic legato}
 pll = \markup {\dynamic p \italic legatissimo}
 mpe = \markup {\dynamic mp \italic espressivo}
 mfa = \markup {\dynamic mf \italic articolato}
 mfll = \markup {\dynamic mf \italic legatissimo}
 fa = \markup {\dynamic f \italic articolato}
+fam = \markup {\dynamic f \italic ampio}
 fs = \markup {\dynamic f \italic sostenuto}
 ffp = \markup {\dynamic ff \italic pesante}
 
