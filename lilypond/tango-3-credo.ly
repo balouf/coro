@@ -540,7 +540,7 @@ bass_music = {
   \bar "||" \break
   R1*9 r8 c-.^\fa 8-. 8-. d-. 8-. 8-. c16 d
   es8-. 8-> r c-. aes'-. 4-> d,8-.
-  g-> c,-> r c-> f-. 4-> d8-.
+  g-> c,-> r c-. f-. 4-> d8-.
   f-> es-. 8-> des-. c8 16 16 a8-. b-. c4 r r8
   bes8-. 8-. 8-. es4-- 4-- r8 c8-.8-.8-.
   f4-- 4-- r8 es8-.8-.8-. aes,2 d4 g, c r r2

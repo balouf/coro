@@ -69,7 +69,7 @@ sop_music = {
   g\(^\mf aes1 2. 4 g16 f g4.~ 2 2.\) \breathe
   g4\( aes1 2~ 8 8 bes16( aes) g( f) g( f)
   g4.~ 2~ 1\)^"rit." \breathe
-  c1~\( 2.~ 8 bes16( aes) bes1~ 2.\)
+  c1~^"A tempo"\( 2.~ 8 bes16( aes) bes1~ 2.\)
   \breathe
   aes8\( g aes2. 4 bes2 aes g16( f) g4.~ 2~ 2.\)
   \breathe
