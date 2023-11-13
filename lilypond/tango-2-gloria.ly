@@ -290,7 +290,7 @@ ten_music = {
   g4\( aes2 4 4 g2.-- aes4 g1 2\) r4 
   c8^\pp\( 8 bes2 2 aes1^\> g\)\fermata 
   \bar "||" \key c \major \tempo 4 = 86 \time 2/4
-  es'8.^\f 16 4 r8 f f bes, es8. 16~ 4 r8 d d a
+  e'8.^\f 16 4 r8 f f bes, es8. 16~ 4 r8 d d a
   a8. 16 8 8 bes4 d8 8 c4. 8 c4( b) \breathe
   e2 f4( bes,) c8. 16~ 4 r8 d d a8 8. 16 8 8 bes4 d8 8
   
